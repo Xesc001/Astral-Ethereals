@@ -1,0 +1,56 @@
+
+.form{
+    text-align: left;
+    width: 100vh;
+    height: 75vh;
+    padding: 3vh 2vh 3vh 2vh;
+    border: 3px solid #fafafa;
+  }
+.formulario{
+    max-width: 20vh;
+    max-height: 50vh;
+}
+/*ScrableText*/
+.aset{
+    height: 10vh;
+    width: 95vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 5vh;
+    font-weight:500;
+    font-family: 'Concert One', cursive;
+    color: #9cfff5;
+}
+/*Inputs*/
+.steam{
+    outline: none;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid red;
+    max-height: 4vh;
+    max-width: 27vh;
+}
+.steam:required{
+    border: 1px dashed red;
+}
+.discord{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid red;
+    background-color: black;
+    max-height: 4vh;
+    max-width: 28vh;
+}
+.mail{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid red;
+    background-color: black;
+    max-height: 4vh;
+    max-width: 28vh;
+}
+
