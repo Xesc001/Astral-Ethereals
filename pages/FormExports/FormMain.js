@@ -1,17 +1,16 @@
 import Form from '../../styles/Formulario.module.css'
 import Inputs from './Inputs'
 import Title from './FormTitle'
-import Continue from './FormContinueButton'
 import Link from 'next/link'
+import Continue from './FormContinueButton'
+/* Exports called by other files*/
+const Main = () =>(
+    <div className={Form.form}>
+        <header>
+            <Title />
+        </header>
+        <Link href='Inputs'>Si</Link>
+    </div>
+)
 
-export default function Main(){
-    return(
-            <div className={Form.form}>
-                <header>
-                    <Title />
-                </header>
-                <Link href="/Inputs">Continue</Link>
-            </div>
-        
-    )
-}
+export default Main;

@@ -1,5 +1,7 @@
 import TextScrambler  from 'react-scramble-text'
 
+/* Instructions(Text Scrambler) called from a library*/
+
 export default function Scrambled(){   
     const welcome =  ["Primeramente", "Ingrese su Steam ID:"]
     return(

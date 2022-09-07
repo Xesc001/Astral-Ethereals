@@ -1,5 +1,7 @@
 import Form from '../../styles/Formulario.module.css'
 import Scrambled from './ScrambledLabel';
+
+/*This is the all inputs and registry formats*/
 const Inputs = () => (
     <div>
         <form method="POST" className={Form.formulario}>
@@ -18,6 +20,6 @@ const Inputs = () => (
         </form>
     </div>
     
-);
+)
          
 export default Inputs;

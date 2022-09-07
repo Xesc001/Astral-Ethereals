@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Main from './FormExports/FormMain';
-
+/*Main, primary file of the project*/
 const Home = () => (
   <div className={styles.container}>
       <Head>
@@ -16,7 +16,7 @@ const Home = () => (
           <Main />
       </main>
       
-    </div>
+  </div>
 )
 
 export default Home;

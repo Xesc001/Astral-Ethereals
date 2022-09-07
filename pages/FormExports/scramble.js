@@ -1,6 +1,7 @@
 import TextScrambler  from 'react-scramble-text'
 import React from 'react';
 
+/* Welcome Title(Text Scrambler) called by a library */
 class Scrambled extends React.Component {
     render() {
         const welcome =  ["Bienvenido a", "Astral Ethereals","Somos un grupo de jugadores con una meta en común", "llegar a FPL",  "Seré tu asistente de registro","para unirte a ","As Et"]
