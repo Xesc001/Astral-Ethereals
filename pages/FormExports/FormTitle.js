@@ -1,5 +1,5 @@
 
-import Scrambler from './scramble';
+import Scrambler from './ScrambledTexts/ScrambledWelcome';
 import React from 'react';
 import Form from '../../styles/Formulario.module.css'
 
