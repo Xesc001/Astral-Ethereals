@@ -1,11 +1,15 @@
 
 .form{
+    margin: 10px 20px 10px 20px;
     text-align: left;
     width: 100vh;
     height: 75vh;
     padding: 3vh 2vh 3vh 2vh;
     border-radius: 2vh;
-    border: 3px solid #fafafa;
+    border-top: 3px solid rgba(164, 15, 197, 0.813);
+    border-bottom: 3px solid rgba(8, 166, 8, 0.709);
+    border-left: 8px solid rgb(16, 117, 195);
+    border-right: 8px solid rgb(197, 220, 18);
 }
 
 .formulario{
@@ -14,7 +18,7 @@
 }
 /*ScrableText*/
 .aset{
-    height: 60vh;
+    height: 55vh;
     width: 95vh;
     justify-content: center;
     align-items: center;
