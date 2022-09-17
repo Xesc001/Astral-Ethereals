@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import Styles from '../../../styles/Home.module.css';
 
 const Steam = React.forwardRef(({onClick, href} ,ref ) => {
     return(
-        <a href={href} onClick={onClick} ref={ref}>
-            Adelante!
+        <a href={href} onClick={onClick} ref={ref} className={Styles.a}>
+            Sign Up
         </a>
     )
 })

@@ -9,8 +9,7 @@ const Steam = () => (
         <div className={Styles.container}>
             <div className={Form.form}>
                 <Scrambled />
-                <form method="POST" className={Form.formulario}> 
-                          
+                <form method="POST" className={Form.formulario}>   
                     <br /> 
                     <label id="Steam">Steam Code:</label>
                     <br />
@@ -20,7 +19,7 @@ const Steam = () => (
                 </form>
                 <Discord />
             </div>
-            
+
         </div>
     </main>
     
