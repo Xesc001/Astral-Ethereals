@@ -15,9 +15,6 @@ const Main = () =>(
                 <ul className={Styles.buttonLayout}>
                     <li className={Styles.button}><About /> </li>
                 </ul>
-                <ul className={Styles.buttonLayout}>
-                    <li className={Styles.button}>Steam</li>
-                </ul>
 
             </footer>
             

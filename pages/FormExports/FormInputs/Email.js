@@ -7,9 +7,9 @@ const Email = () => (
                 <form method="POST" className={Form.formulario}> 
                     <label id="Email">Email:</label>
                     <br />
-                    <input type="text" className={Form.Email} name="Email" />
+                    <input type="text" requiered className={Form.Email} name="Email" />
                     <br />
-                    <input type="submit" title='Done'/>
+                    <button type="submit"> Done! </button>
                 </form>
             </div>
         </div>

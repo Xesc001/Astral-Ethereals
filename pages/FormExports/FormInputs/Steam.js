@@ -1,6 +1,7 @@
 import Form from '../../../styles/Formulario.module.css'
 import Styles from '../../../styles/Home.module.css'
 import Discord from '../Refs/DiscordRef'
+import validator from "../validator"
 import Scrambled from '../ScrambledTexts/ScrambledDiscord';
 
 /*This is the all inputs and registry formats*/
@@ -9,13 +10,13 @@ const Steam = () => (
         <div className={Styles.container}>
             <div className={Form.form}>
                 <Scrambled />
-                <form method="POST" className={Form.formulario}>   
+                <form action="/api/form" method="post" className={Form.formulario}>   
                     <br /> 
-                    <label id="Steam">Steam Code:</label>
+                    <label htmlFor='first'>Steam Code:</label>
                     <br />
-                    <input type="text" className={Form.steam} name="Steam" />
+                    <input required type="text" id="first" className={Form.steam} name="first" />
                     <br />
-                    <input type="submit" title='Done'/>
+                    <button type="submit"> Done! </button>
                 </form>
                 <Discord />
             </div>

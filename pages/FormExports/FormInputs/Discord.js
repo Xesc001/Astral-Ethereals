@@ -8,9 +8,9 @@ const Discord = () => (
                 <form method="POST" className={Form.formulario}> 
                     <label id="Discord">Discord Tag:</label>
                     <br />
-                    <input type="text" className={Form.discord} name="Discord" />
+                    <input type="text" requiered className={Form.discord} name="Discord" />
                     <br />
-                    <input type="submit" title='Done'/>
+                    <button type="submit"> Done! </button>
                 </form>
                 <Email />
             </div>
