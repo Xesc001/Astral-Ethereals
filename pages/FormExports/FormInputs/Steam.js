@@ -4,7 +4,7 @@ import Discord from '../Refs/DiscordRef'
 import validator from "../validator"
 import Scrambled from '../ScrambledTexts/ScrambledDiscord';
 
-/*This is the all inputs and registry formats*/
+/*This is the all inputs and registry formats and sends the data to the API form*/
 const Steam = () => (
     <main className={Styles.main}>
         <div className={Styles.container}>
